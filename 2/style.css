@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+}
+
+/*nav start*/
+nav .nav-brand{
+	color: orange !important ;
+}
+.nav-item a:hover{
+	color: darkblue !important;
+	transition-duration: .2s;
+}
+/*nav end*/
+
+
+/*home start*/
+#home{
+	width: 100%;
+	height: 100vh;
+ 	/*display: flex;
+ 	align-items: center;
+ 	justify-content: center;*/
+ 	/*margin-top: 50px;*/
+}
+#home::before{
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+ 	background-image: url("https://i.pinimg.com/originals/79/0e/8f/790e8fc660cbf96eb7581ea14608f240.jpg");
+ 	background-position: center;
+ 	background-size: cover;
+ 	opacity: .5;
+}
+
+/*----------------------------------
+          ABOUT
+----------------------------------*/
+.profile_card{
+	border: 2px solid whitesmoke;
+	border-radius: 7px;
+	box-shadow: 0 8px 16px 0 white;
+}
+
+/*----------------------------------
+          SERVICES
+----------------------------------*/
+.servicebox img{
+	width: 70%;
+	height: 300px;
+
+}
+
+
+/*----------------------------------
+          CONTACT
+----------------------------------*/
+.contact{
+	border: 2px solid white;
+	border-radius: 10px;
+}
+
+/*----------------------------------
+          FEEDBACK
+----------------------------------*/
+#feedback{
+	height: 100vh;
+}
+.feedhead{
+	margin-top: 70px;
+	font-family: 'Times New Roman', Times, serif;
+}
+.feedbackform{
+  border-radius: 7px;
+}

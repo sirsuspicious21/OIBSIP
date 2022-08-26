@@ -1,0 +1,53 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: inter;
+}
+body{
+	height: 100vh !important;
+	background: whitesmoke;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container-fluid{
+	padding: 35px;
+}
+.box{
+   /*width: 50% !important;*/
+   padding: 30px !important;
+   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+   border-radius: 2rem;
+}
+#Temperature{
+	padding-left: 30vh;
+	padding-right: 30vh;
+}
+label{
+	font-size: 20px;
+	color: gray;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.input{
+	/*width: 300px;*/
+	font-size: 18px;
+}
+.deg, .type, .result{
+	border-left: none !important;
+	border-right: none !important;
+	border-top: none !important;
+}
+.result{
+font-size: 20px;
+}
+.btn{
+	border-radius: 1rem;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.input{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form-control{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
